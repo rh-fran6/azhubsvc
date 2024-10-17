@@ -1,0 +1,9 @@
+# Ignore any terraform state files anywhere in the project
+**/terraform.tfstate
+**/terraform.tfstate.backup
+
+# Ignore .terraform directories anywhere in the project
+**/.terraform/
+
+# Ignore all .json files
+*.json
